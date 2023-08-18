@@ -1,12 +1,14 @@
 import Image from "next/image";
 import PageLayout from "./components/pageLayout";
 import Navbar from "./components/navbar";
+import Sidebar from "./components/sidebar";
 
 export default function Home() {
   return (
     <PageLayout>
       <Navbar />
       <div className="flex justify-center items-center h-full">
+        <Sidebar />
         <div className="w-2/3">
           <div className="text-[#9CFF2E] pb-8 tracking-widest text-md">
             Hi, my name is ...
