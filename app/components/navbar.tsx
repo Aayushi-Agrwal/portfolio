@@ -1,6 +1,6 @@
 function Navbar() {
   return (
-    <div className="w-1/3 absolute right-4 py-4">
+    <div className="w-1/3 absolute right-4 py-4 cursor-pointer">
       <ul className="flex justify-around items-center text-sm">
         <li className="hover:scale-105">About</li>
         <li className="hover:scale-105">Experience</li>

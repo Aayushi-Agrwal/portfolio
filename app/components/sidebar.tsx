@@ -11,14 +11,14 @@ function Sidebar() {
     <div className="flex flex-col h-1/3 justify-between absolute left-16 items-center bottom-4">
       <Link
         href="https://github.com/Aayushi-Agrwal"
-        className="w-6"
+        className="w-6 hover:scale-105"
         target="_blank"
       >
         <FontAwesomeIcon icon={faGithub} />
       </Link>
       <Link
         href="https://www.linkedin.com/in/aayushi-agarwal-bb104222b/"
-        className="w-6"
+        className="w-6 hover:scale-105"
         target="_blank"
       >
         <FontAwesomeIcon icon={faLinkedin} />
@@ -26,11 +26,11 @@ function Sidebar() {
       <Link
         href="https://twitter.com/Aayushi73442077"
         target="_blank"
-        className="w-6"
+        className="w-6 hover:scale-105"
       >
         <FontAwesomeIcon icon={faXTwitter} />
       </Link>
-      <div className="h-[8rem] border-r-2 border-white"></div>
+      <div className="h-[6rem] border-r-2 border-white"></div>
     </div>
   );
 }
